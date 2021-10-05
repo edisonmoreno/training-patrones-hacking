@@ -7,6 +7,8 @@ public class Principal {
         System.out.println("Start");
 
         new Creationals();
+
+       new Structurals();
     }
 
 

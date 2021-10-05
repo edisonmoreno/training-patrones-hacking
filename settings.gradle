@@ -2,4 +2,5 @@ rootProject.name = 'training-patrones-hacking'
 include 'creacionales'
 include 'main'
 include 'boot'
+include 'estructurales'
 
