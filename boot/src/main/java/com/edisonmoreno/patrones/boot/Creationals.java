@@ -61,12 +61,11 @@ public class Creationals {
 
         System.out.println("create Instance with retry: 10");
         Config singleton = Config.getInstance(10);
+        System.out.println("initial value retry: " + singleton.retryNumber);
 
         System.out.println("modify Instance with retry: 20");
         Config singletonSecondInstance = Config.getInstance(20);
-
-        System.out.println("initial value retry: " + singleton.retryNumber);
-        System.out.println("alter value retry: " + singletonSecondInstance.retryNumber);
+        System.out.println("not alter value retry: " + singletonSecondInstance.retryNumber);
 
     }
 }
