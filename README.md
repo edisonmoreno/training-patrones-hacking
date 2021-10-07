@@ -23,3 +23,15 @@ Debe cumplir con dos objetivos para que sea considerada Singleton:
 	• El constructor es privado, para evitar que se creen instancias de esta clase.
 	• Posee un método alterno para crear la instancia (si no existe), y devolverla.
 
+
+#Patrones estructurales
+Ensamblar objetos y clases en estructuras más grandes, a la vez que se mantiene la flexibilidad y eficiencia de estas estructuras.
+
+## Decorator
+Permite añadir funcionalidades a objetos colocando estos objetos dentro de objetos encapsuladores especiales que contienen estas funcionalidades.
+
+## Facade
+Proporciona una interfaz simplificada a una biblioteca, un framework o cualquier otro grupo complejo de clases.
+
+## Proxy
+Proporciona un objeto que haga de intermediario (proxy) de otro, para controlar el acceso a él.
