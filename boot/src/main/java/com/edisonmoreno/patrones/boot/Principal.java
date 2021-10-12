@@ -6,9 +6,11 @@ public class Principal {
     public static void main(String[] args) {
         System.out.println("Start");
 
-        new Creationals();
+        new Creational();
 
-       new Structurals();
+        new Structural();
+
+        new Behavioral();
     }
 
 

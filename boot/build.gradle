@@ -15,6 +15,7 @@ dependencies {
 
     implementation project(':creacionales')
     implementation project(':estructurales')
+    implementation project(':comportamiento')
 
 }
 

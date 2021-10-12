@@ -12,12 +12,12 @@ import com.edisonmoreno.patrones.estructurales.proxy.Document;
 import java.util.Arrays;
 import java.util.List;
 
-public class Structurals {
+public class Structural {
 
-    public Structurals() {
+    public Structural() {
         System.out.println();
         System.out.println("*******************");
-        System.out.println("*** Structurals ***");
+        System.out.println("*** Structural ***");
         System.out.println("*******************");
 
         this.printDecorator();

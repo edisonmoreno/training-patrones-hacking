@@ -6,10 +6,10 @@ import com.edisonmoreno.patrones.creacionales.builder.InventoryAccountBuilder;
 import com.edisonmoreno.patrones.creacionales.factorymethod.factory.*;
 import com.edisonmoreno.patrones.creacionales.singleton.Config;
 
-public class Creationals {
+public class Creational {
     private static AccountBase accountBase;
 
-    public Creationals() {
+    public Creational() {
         System.out.println();
         System.out.println("******************");
         System.out.println("*** Creational ***");
